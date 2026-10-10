@@ -20,7 +20,7 @@ Los instrumentos se guardan en una lista ligada propia formada por la clase `Nod
 3. **Mostrar instrumentos**: muestra todos los instrumentos guardados.
 4. **Actualizar cantidad**: cambia el stock de un instrumento (operacion extra).
 5. **Calcular valor total del inventario**: suma precio x cantidad de todos los instrumentos (operacion extra).
-0. **Salir**
+6. **Salir**
 
 ## Estructura del proyecto
 
@@ -37,14 +37,12 @@ Necesitas tener instalado el JDK de Java.
 
 1. Clona el repositorio o descarga los archivos.
 2. Abre una terminal en la carpeta del proyecto.
-3. Compila:
-   ```
+3. Entra a la carpeta src:
+   cd src
+4. Compila:
    javac *.java
-   ```
-4. Ejecuta:
-   ```
+5. Ejecuta:
    java Main
-   ```
 
 ## Autor
 

@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3. Mostrar instrumentos");
             System.out.println("4. Actualizar cantidad (stock)");
             System.out.println("5. Calcular valor total del inventario");
-            System.out.println("0. Salir");
+            System.out.println("6. Salir");
             opcion = leerEntero("Elige una opcion: ");
 
             switch (opcion) {
@@ -34,13 +34,13 @@ public class Main {
                 case 5:
                     System.out.println("Valor total del inventario: $" + lista.calcularValorInventario());
                     break;
-                case 0:
+                case 6:
                     System.out.println("Hasta luego!");
                     break;
                 default:
                     System.out.println("Opcion no valida, intenta de nuevo.");
             }
-        } while (opcion != 0);
+        } while (opcion != 6);
     }
 
     public static void agregarInstrumento(ListaLigada lista) {
